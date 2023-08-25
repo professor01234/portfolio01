@@ -1,0 +1,1805 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-x: hidden;
+    
+
+    
+}
+
+*{
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    padding: 10px;
+    border:2px solid black;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    
+
+}
+.nav li img{
+    width: 150px; 
+    margin-right: 100px; 
+    
+}
+
+.nav li{
+    list-style-type:  none;
+    margin: 20px;
+    
+}
+.nav li a{
+    text-decoration: none;
+}
+.img1{
+    display: none;
+}
+.downlod{
+    padding-left: 250px;
+    
+}
+.downlod a{
+    border: 2px solid black;
+    padding: 12px;
+    background-color:blue;
+    color: black;
+   
+
+}
+.downlod a:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+
+.parentdiv{
+    display: flex;
+    justify-content: center;
+    background-color:aqua;
+    height: 680px;
+}
+.childdiv1{
+    height: 400px;
+    width: 400px;
+    margin: 100px;
+
+}
+.childdiv2{
+    height: 400px;
+    width: 400px;
+    margin: 100px;
+}
+.say{
+    padding-left: 250px;
+}
+.say {
+    border: 2px solid black;
+    padding: 12px;
+    background-color:blue;
+    color: black;
+}
+.say:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+
+
+@media(max-width:415px){
+   
+
+
+
+}
+
+
+
+/========================My clients=================/
+.div2{
+
+    background-color: rgb(16, 26, 48);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
+}
+
+.my{
+    color: rgb(242, 207, 207);
+    
+    
+}
+.my2 img{
+    margin-left: 120px;
+    color: aliceblue;
+    
+    
+    
+}
+@media(max-width:415px){
+    .my2 img{
+        margin-left: 20px;
+        
+        
+        
+    }
+}
+/===========dedication==========/
+.under{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+.under div{
+    padding: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-left: 2px solid black;
+
+}
+.under div img{
+    width: 90px;
+    height: 60px;
+    margin-bottom: -20px;
+}
+
+.under div span{
+    font-size: 30px;
+}
+.under div p{
+    font-size: 20px;
+}
+@media(max-width:415px){
+    .under div{
+        padding: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-left:none;
+    }
+    .under{
+        display: block;
+        justify-content: none;
+        padding: 50px;
+    }
+    .under div span{
+        font-size: 30px;
+    }
+    .under div p{
+        font-size: 30px;
+    }
+}
+
+
+    /==================my skill================/
+
+.mainskill{
+    display: flex;
+    justify-content: center;
+    color: rgb(13, 13, 58);
+
+    
+
+}
+
+.mainskill div{
+    margin: 40px;
+    
+   
+    
+}
+.ulskill{
+    display: flex;
+   
+   
+   
+}
+.ulup{
+    background-image: url(./img2.jpg);
+    
+    
+
+}
+.ulskill li{
+    list-style-type: none;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    margin: 20px;
+}
+.mainskill div h1{
+    font-size: 60px;
+}
+.mainskill div p{
+    font-size: 30px;
+}
+@media(max-width:415px){
+    .mainskill{
+        display: block;
+        justify-content: none;
+        color: rgb(13, 13, 58);
+    
+        
+    
+    }
+    .ulup{
+        background-image: url(./img2.jpg);
+        width: 100%;
+       
+        
+    
+    }
+    .ulskill li{
+        list-style-type: none;
+        border: 1px solid black;
+        background-color: white;
+        padding: 10px;
+        font-size: 30px;
+        margin: 20px;
+        margin-right:30px;
+        margin-left: -10px;
+    }
+
+}
+/===============About Me=================/
+.year{
+    width: 280px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2300px;
+    left: 95px;
+    background-color: aliceblue;
+}
+.year1{
+    color: orangered;
+    font-size: 70px;
+    font-weight: 200;
+    margin-top: 0px;
+}
+.year2{
+    color: rgb(83, 83, 249);
+    font-size: 25px;
+    padding-left: 20px;
+}
+.about{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    padding: 60px 150px 60px 100px;
+    
+}
+.about div{
+    margin: 0px 60px 0px 60px;
+}
+.about div p{
+    font-size: 20px;
+}
+.about div h1{
+    font-size: 60px;
+}
+.about div img{
+    display: flex;
+}
+.say2{
+    padding-left: 250px;
+    
+}
+.say2{
+    border: 2px solid black;
+    padding: 12px;
+    background-color:blue;
+    color: black;
+   
+
+}
+.say2:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+.aboutme{
+    margin-top: -20px;
+     font-size: 40px;
+}
+@media(max-width:415px){
+    .year{
+        width: 210px;
+        height: 90px;
+        border: 2px solid black;
+        display: block;
+        justify-content: center;
+        position: absolute;
+        top:3950px;
+        left: 95px;
+        background-color: aliceblue;
+        margin-left: -90px;
+    }
+    .about div img{
+        display: block;
+        margin-left:-160px;
+    }
+    .year1{
+        color: orangered;
+        font-size: 50px;
+        font-weight: 200;
+        margin-right:-60px;
+    }
+    .year2{
+        color: rgb(83, 83, 249);
+        font-size: 25px;
+        padding-left: 70px;
+        margin-top: -80px;
+    }
+
+    .about{
+        background-color: yellow;
+        display: block;
+        justify-content: center;
+        padding: 60px 150px 60px 100px;
+        }
+   .aboutme{
+           margin-left: -120px;
+           font-size: 30px;
+        }
+
+        .about div h1{
+            
+            font-size: 20px;
+        }
+        .about div p{
+            font-size: 20px;
+        }
+
+
+
+
+}
+
+
+
+/------------five images-------------/
+
+.five{
+    display: flex;
+
+}
+.five div{
+    border: 2px solid rgb(12, 12, 53);
+    width: 49%;
+    overflow: hidden;
+    margin: 1%;
+}
+.five div image{
+    width: 100%;
+}
+.five div img:hover{
+    scale: 1.2;
+    transition:scale 0.5s ease-out ;
+}
+
+.five2{
+    display: flex;
+
+}
+.five2 div{
+    border: 2px solid rgb(12, 12, 53);
+    width: 32.8%;
+    overflow: hidden;
+    margin: 0.5%;
+}
+.five2 div image{
+    width: 100%;
+}
+.five2 div img:hover{
+    scale: 1.2;
+    transition:scale 0.5s ease-out ;
+   
+}
+@media(max-width:415px){
+    
+
+
+}
+
+
+
+
+
+/---=========FAQ=============---/
+.few{
+    color: rgb(14, 14, 63);
+    font-size: 40px;
+}
+.faq1{
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.faq1 span{
+    background-color:aqua;
+    font-weight: 850;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    
+    
+}
+.faq1a{
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: wheat;
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+    margin-top: -100px;
+    z-index: -3;
+   
+}
+#check1:checked~.faq1a{
+    margin-top: 10px;
+    transition: margin-top 1s ease-out;
+    
+}
+
+
+
+.few{
+    
+    
+    color: rgb(14, 14, 63);
+    font-size: 40px;
+}
+.faq2{
+    margin: 10px;
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.faq2 span{
+    background-color:aqua;
+    font-weight: 850;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    
+    
+}
+.faq2a{
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: wheat;
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+    margin-top: -100px;
+    z-index: -3;
+    
+}
+#check2:checked~.faq2a{
+    margin-top: 10px;
+    transition: margin-top 1s ease-out;
+}
+
+
+
+.few{
+    color: rgb(14, 14, 63);
+    font-size: 40px;
+}
+.faq3{
+    margin: 10px;
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.faq3 span{
+    background-color:aqua;
+    font-weight: 850;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    
+    
+}
+.faq3a{
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: wheat;
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+    margin-top: -100px;
+    z-index: -3;
+    
+}
+#check3:checked~.faq3a{
+    margin-top: 10px;
+    transition: margin-top 1s ease-out;
+}
+
+
+
+
+.few{
+    color: rgb(14, 14, 63);
+    font-size: 40px;
+}
+.faq4{
+    margin: 10px;
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.faq4 span{
+    background-color:aqua;
+    font-weight: 850;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    
+    
+}
+.faq4a{
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: wheat;
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+    margin-top: -100px;
+    z-index: -3;
+    
+}
+#check4:checked~.faq4a{
+    margin-top: 10px;
+    transition: margin-top 1s ease-out;
+}
+
+
+
+.few{
+    color: rgb(14, 14, 63);
+    font-size: 40px;
+}
+.faq5{
+    margin: 10px;
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.faq5 span{
+    background-color:aqua;
+    font-weight: 850;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    
+    
+}
+.faq5a{
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: wheat;
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+    margin-top: -100px;
+    z-index: -3;
+    
+}
+#check5:checked~.faq5a{
+    margin-top: 10px;
+    transition: margin-top 1s ease-out;
+}
+
+@media(max-width:415px){
+    .faq1{
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: white;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .faq1a{
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: wheat;
+        font-size: 15px;
+        margin-left: 10px;
+        position: relative;
+        margin-top: -100px;
+        z-index: -3;
+       
+    }
+
+
+    .faq2{
+        margin: 10px;
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: white;
+        font-size: 30px;
+    }
+      .faq2a{
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: wheat;
+        font-size: 15px;
+        position: relative;
+        margin-top: -130px;
+        z-index: -3;
+        margin-left: 10px;
+        
+    }
+
+    .faq3{
+        margin: 10px;
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: white;
+        font-size: 30px;
+    }
+      .faq3a{
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: wheat;
+        font-size: 15px;
+        position: relative;
+        margin-top: -130px;
+        z-index: -3;
+        margin-left: 10px;
+        
+    }
+
+
+    .faq4{
+        margin: 10px;
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: white;
+        font-size: 30px;
+    }
+      .faq4a{
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: wheat;
+        font-size: 15px;
+        position: relative;
+        margin-top: -130px;
+        z-index: -3;
+        margin-left: 10px;
+        
+    }
+
+
+    .faq5{
+        margin: 10px;
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: white;
+        font-size: 30px;
+    }
+      .faq5a{
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: wheat;
+        font-size: 15px;
+        position: relative;
+        margin-top: -130px;
+        z-index: -3;
+        margin-left: 10px;
+        
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/---=======I'm available for freelance work============---/
+.work{
+    margin: 50px;
+    
+    padding: 200px;
+    margin-right: -10px;
+    margin-left: -10px;
+    background-color: aqua;
+    
+    
+}
+.work1 h1{
+    margin-top: -100px;
+    margin-left: 320px;
+    font-size: 60px;
+    color: rgb(21, 21, 58);
+    
+}
+.work2{
+    padding-left: 250px;
+    border: 1px solid rgb(31, 31, 87);
+    padding: 12px;
+    background-color: white;
+    color: rgb(26, 26, 80);
+   margin-left: 425px;
+    
+}
+
+.work2:hover{
+    background-color:rgb(25, 25, 114);
+    color:white;
+}
+
+
+
+
+/=============blog=============/
+.myblog1{
+    display: flex;
+    
+    padding: 60px;
+    
+    
+    
+}
+.myblog span{
+  
+    color: rgb(202, 76, 30);
+    font-size: 30px;
+    margin-left: 140px;
+    
+}
+.myblog h1{
+    color: rgb(23, 23, 67);
+    font-size: 60px;
+    margin-left: 120px;
+    margin-bottom: -40px;
+}
+
+
+.blog1{
+    border-bottom: 2px solid rgb(185, 185, 199);
+    margin-left: 80px;
+   
+}
+.blog{
+    width:300px;
+    border-radius: 100px;
+    overflow: hidden;
+   
+}
+.blog1  img{
+    
+    width: 300px;
+    
+}
+.blog1  img:hover{
+    
+    width: 300px;
+    scale: 1.4;
+    transition: scale 1s ease-out;
+    border: 2px solid rgb(10, 10, 77);
+}
+/---=================contact========================--/
+.contact6{
+    font-size: 20px;
+    color: rgb(219, 63, 6);
+    margin-top: -33px;
+    margin-right: 100px;
+    
+
+}
+.contact1 div h2{
+    color: white;
+    font-size: 60px;
+    margin-top: 2px;
+    margin-left: 10px;
+
+}
+.contact1 div a{
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.contact1 span{
+    color: rgb(156, 156, 156);
+    
+}
+.contact1 div img{
+    padding-top: 100px;
+    margin-left: 250px;
+    
+}
+.contact1 div h3{
+    padding-top: -10px;
+    margin-left: 250px;
+    color: white;
+    background-color: rgba(118, 117, 117, 0.412);
+}
+/==================next part=================/
+.contact{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://itemsstore.net/html/trito/img/contact/background.jpg);
+    padding: 40px;
+}
+.contact1{
+    margin: 100px;
+}
+.contact5{
+    margin: 100px;
+    background-color: white;
+    padding: 80px;
+
+}
+.contact2{
+    padding-bottom: 10px;
+    margin: 10px;
+   
+    padding:  15px 200px 15px 10px !important;
+    
+    font-size: 20px;
+    border: 2px solid rgb(3, 3, 55);
+    
+}
+.childdiv4{
+   margin: 15px;
+    padding:  15px 80px 15px 20px !important;
+    font-size: 20px;
+    border: 2px solid rgb(3, 3, 55);
+}
+
+.contact2 button{
+   
+    padding: 10px 120px 10px 120px;
+    background-color: rgb(4, 4, 28);
+    color: white;
+    font-size: 20px;
+    
+}
+.contact2 div i{
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: rgb(10, 12, 57);
+    padding: 20px;
+    margin: 20px;
+}body{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-x: hidden;
+    
+
+    
+}
+
+*{
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    padding: 10px;
+    border:2px solid black;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    
+
+}
+.nav li img{
+    width: 150px; 
+    margin-right: 100px; 
+    
+}
+
+.nav li{
+    list-style-type:  none;
+    margin: 20px;
+    
+}
+.nav li a{
+    text-decoration: none;
+}
+.img1{
+    display: none;
+}
+.downlod{
+    padding-left: 250px;
+    
+}
+.downlod a{
+    border: 2px solid black;
+    padding: 12px;
+    background-color:blue;
+    color: black;
+   
+
+}
+.downlod a:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+
+.parentdiv{
+    display: flex;
+    justify-content: center;
+    background-color:aqua;
+    height: 680px;
+}
+.childdiv1{
+    height: 400px;
+    width: 400px;
+    margin: 100px;
+
+}
+.childdiv2{
+    height: 400px;
+    width: 400px;
+    margin: 100px;
+}
+.say{
+    padding-left: 250px;
+}
+.say {
+    border: 2px solid black;
+    padding: 12px;
+    background-color:blue;
+    color: black;
+}
+.say:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+
+
+@media(max-width:415px){
+   
+
+
+
+}
+
+
+
+/========================My clients=================/
+.div2{
+
+    background-color: rgb(16, 26, 48);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
+}
+
+.my{
+    color: rgb(242, 207, 207);
+    
+    
+}
+.my2 img{
+    margin-left: 120px;
+    color: aliceblue;
+    
+    
+    
+}
+@media(max-width:415px){
+    .my2 img{
+        margin-left: 20px;
+        
+        
+        
+    }
+}
+/===========dedication==========/
+.under{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+.under div{
+    padding: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-left: 2px solid black;
+
+}
+.under div img{
+    width: 90px;
+    height: 60px;
+    margin-bottom: -20px;
+}
+
+.under div span{
+    font-size: 30px;
+}
+.under div p{
+    font-size: 20px;
+}
+@media(max-width:415px){
+    .under div{
+        padding: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-left:none;
+    }
+    .under{
+        display: block;
+        justify-content: none;
+        padding: 50px;
+    }
+    .under div span{
+        font-size: 30px;
+    }
+    .under div p{
+        font-size: 30px;
+    }
+}
+
+
+    /==================my skill================/
+
+.mainskill{
+    display: flex;
+    justify-content: center;
+    color: rgb(13, 13, 58);
+
+    
+
+}
+
+.mainskill div{
+    margin: 40px;
+    
+   
+    
+}
+.ulskill{
+    display: flex;
+   
+   
+   
+}
+.ulup{
+    background-image: url(./img2.jpg);
+    
+    
+
+}
+.ulskill li{
+    list-style-type: none;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    margin: 20px;
+}
+.mainskill div h1{
+    font-size: 60px;
+}
+.mainskill div p{
+    font-size: 30px;
+}
+@media(max-width:415px){
+    .mainskill{
+        display: block;
+        justify-content: none;
+        color: rgb(13, 13, 58);
+    
+        
+    
+    }
+    .ulup{
+        background-image: url(./img2.jpg);
+        width: 100%;
+       
+        
+    
+    }
+    .ulskill li{
+        list-style-type: none;
+        border: 1px solid black;
+        background-color: white;
+        padding: 10px;
+        font-size: 30px;
+        margin: 20px;
+        margin-right:30px;
+        margin-left: -10px;
+    }
+
+}
+/===============About Me=================/
+.year{
+    width: 280px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2300px;
+    left: 95px;
+    background-color: aliceblue;
+}
+.year1{
+    color: orangered;
+    font-size: 70px;
+    font-weight: 200;
+    margin-top: 0px;
+}
+.year2{
+    color: rgb(83, 83, 249);
+    font-size: 25px;
+    padding-left: 20px;
+}
+.about{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    padding: 60px 150px 60px 100px;
+    
+}
+.about div{
+    margin: 0px 60px 0px 60px;
+}
+.about div p{
+    font-size: 20px;
+}
+.about div h1{
+    font-size: 60px;
+}
+.about div img{
+    display: flex;
+}
+.say2{
+    padding-left: 250px;
+    
+}
+.say2{
+    border: 2px solid black;
+    padding: 12px;
+    background-color:blue;
+    color: black;
+   
+
+}
+.say2:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+.aboutme{
+    margin-top: -20px;
+     font-size: 40px;
+}
+@media(max-width:415px){
+    .year{
+        width: 210px;
+        height: 90px;
+        border: 2px solid black;
+        display: block;
+        justify-content: center;
+        position: absolute;
+        top:3950px;
+        left: 95px;
+        background-color: aliceblue;
+        margin-left: -90px;
+    }
+    .about div img{
+        display: block;
+        margin-left:-160px;
+    }
+    .year1{
+        color: orangered;
+        font-size: 50px;
+        font-weight: 200;
+        margin-right:-60px;
+    }
+    .year2{
+        color: rgb(83, 83, 249);
+        font-size: 25px;
+        padding-left: 70px;
+        margin-top: -80px;
+    }
+
+    .about{
+        background-color: yellow;
+        display: block;
+        justify-content: center;
+        padding: 60px 150px 60px 100px;
+        }
+   .aboutme{
+           margin-left: -120px;
+           font-size: 30px;
+        }
+
+        .about div h1{
+            
+            font-size: 20px;
+        }
+        .about div p{
+            font-size: 20px;
+        }
+
+
+
+
+}
+
+
+
+/------------five images-------------/
+
+.five{
+    display: flex;
+
+}
+.five div{
+    border: 2px solid rgb(12, 12, 53);
+    width: 49%;
+    overflow: hidden;
+    margin: 1%;
+}
+.five div image{
+    width: 100%;
+}
+.five div img:hover{
+    scale: 1.2;
+    transition:scale 0.5s ease-out ;
+}
+
+.five2{
+    display: flex;
+
+}
+.five2 div{
+    border: 2px solid rgb(12, 12, 53);
+    width: 32.8%;
+    overflow: hidden;
+    margin: 0.5%;
+}
+.five2 div image{
+    width: 100%;
+}
+.five2 div img:hover{
+    scale: 1.2;
+    transition:scale 0.5s ease-out ;
+   
+}
+@media(max-width:415px){
+    
+
+
+}
+
+
+
+
+
+/---=========FAQ=============---/
+.few{
+    color: rgb(14, 14, 63);
+    font-size: 40px;
+}
+.faq1{
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.faq1 span{
+    background-color:aqua;
+    font-weight: 850;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    
+    
+}
+.faq1a{
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: wheat;
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+    margin-top: -100px;
+    z-index: -3;
+   
+}
+#check1:checked~.faq1a{
+    margin-top: 10px;
+    transition: margin-top 1s ease-out;
+    
+}
+
+
+
+.few{
+    
+    
+    color: rgb(14, 14, 63);
+    font-size: 40px;
+}
+.faq2{
+    margin: 10px;
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.faq2 span{
+    background-color:aqua;
+    font-weight: 850;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    
+    
+}
+.faq2a{
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: wheat;
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+    margin-top: -100px;
+    z-index: -3;
+    
+}
+#check2:checked~.faq2a{
+    margin-top: 10px;
+    transition: margin-top 1s ease-out;
+}
+
+
+
+.few{
+    color: rgb(14, 14, 63);
+    font-size: 40px;
+}
+.faq3{
+    margin: 10px;
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.faq3 span{
+    background-color:aqua;
+    font-weight: 850;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    
+    
+}
+.faq3a{
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: wheat;
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+    margin-top: -100px;
+    z-index: -3;
+    
+}
+#check3:checked~.faq3a{
+    margin-top: 10px;
+    transition: margin-top 1s ease-out;
+}
+
+
+
+
+.few{
+    color: rgb(14, 14, 63);
+    font-size: 40px;
+}
+.faq4{
+    margin: 10px;
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.faq4 span{
+    background-color:aqua;
+    font-weight: 850;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    
+    
+}
+.faq4a{
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: wheat;
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+    margin-top: -100px;
+    z-index: -3;
+    
+}
+#check4:checked~.faq4a{
+    margin-top: 10px;
+    transition: margin-top 1s ease-out;
+}
+
+
+
+.few{
+    color: rgb(14, 14, 63);
+    font-size: 40px;
+}
+.faq5{
+    margin: 10px;
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.faq5 span{
+    background-color:aqua;
+    font-weight: 850;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    
+    
+}
+.faq5a{
+    width: 700px;
+    background-color: rgb(13, 13, 61);
+    padding: 40px;
+    color: wheat;
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+    margin-top: -100px;
+    z-index: -3;
+    
+}
+#check5:checked~.faq5a{
+    margin-top: 10px;
+    transition: margin-top 1s ease-out;
+}
+
+@media(max-width:415px){
+    .faq1{
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: white;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .faq1a{
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: wheat;
+        font-size: 15px;
+        margin-left: 10px;
+        position: relative;
+        margin-top: -100px;
+        z-index: -3;
+       
+    }
+
+
+    .faq2{
+        margin: 10px;
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: white;
+        font-size: 30px;
+    }
+      .faq2a{
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: wheat;
+        font-size: 15px;
+        position: relative;
+        margin-top: -130px;
+        z-index: -3;
+        margin-left: 10px;
+        
+    }
+
+    .faq3{
+        margin: 10px;
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: white;
+        font-size: 30px;
+    }
+      .faq3a{
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: wheat;
+        font-size: 15px;
+        position: relative;
+        margin-top: -130px;
+        z-index: -3;
+        margin-left: 10px;
+        
+    }
+
+
+    .faq4{
+        margin: 10px;
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: white;
+        font-size: 30px;
+    }
+      .faq4a{
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: wheat;
+        font-size: 15px;
+        position: relative;
+        margin-top: -130px;
+        z-index: -3;
+        margin-left: 10px;
+        
+    }
+
+
+    .faq5{
+        margin: 10px;
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: white;
+        font-size: 30px;
+    }
+      .faq5a{
+        width: 350px;
+        background-color: rgb(13, 13, 61);
+        padding: 30px;
+        color: wheat;
+        font-size: 15px;
+        position: relative;
+        margin-top: -130px;
+        z-index: -3;
+        margin-left: 10px;
+        
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/---=======I'm available for freelance work============---/
+.work{
+    margin: 50px;
+    
+    padding: 200px;
+    margin-right: -10px;
+    margin-left: -10px;
+    background-color: aqua;
+    
+    
+}
+.work1 h1{
+    margin-top: -100px;
+    margin-left: 320px;
+    font-size: 60px;
+    color: rgb(21, 21, 58);
+    
+}
+.work2{
+    padding-left: 250px;
+    border: 1px solid rgb(31, 31, 87);
+    padding: 12px;
+    background-color: white;
+    color: rgb(26, 26, 80);
+   margin-left: 425px;
+    
+}
+
+.work2:hover{
+    background-color:rgb(25, 25, 114);
+    color:white;
+}
+
+
+
+
+/=============blog=============/
+.myblog1{
+    display: flex;
+    
+    padding: 60px;
+    
+    
+    
+}
+.myblog span{
+  
+    color: rgb(202, 76, 30);
+    font-size: 30px;
+    margin-left: 140px;
+    
+}
+.myblog h1{
+    color: rgb(23, 23, 67);
+    font-size: 60px;
+    margin-left: 120px;
+    margin-bottom: -40px;
+}
+
+
+.blog1{
+    border-bottom: 2px solid rgb(185, 185, 199);
+    margin-left: 80px;
+   
+}
+.blog{
+    width:300px;
+    border-radius: 100px;
+    overflow: hidden;
+   
+}
+.blog1  img{
+    
+    width: 300px;
+    
+}
+.blog1  img:hover{
+    
+    width: 300px;
+    scale: 1.4;
+    transition: scale 1s ease-out;
+    border: 2px solid rgb(10, 10, 77);
+}
+/---=================contact========================--/
+.contact6{
+    font-size: 20px;
+    color: rgb(219, 63, 6);
+    margin-top: -33px;
+    margin-right: 100px;
+    
+
+}
+.contact1 div h2{
+    color: white;
+    font-size: 60px;
+    margin-top: 2px;
+    margin-left: 10px;
+
+}
+.contact1 div a{
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.contact1 span{
+    color: rgb(156, 156, 156);
+    
+}
+.contact1 div img{
+    padding-top: 100px;
+    margin-left: 250px;
+    
+}
+.contact1 div h3{
+    padding-top: -10px;
+    margin-left: 250px;
+    color: white;
+    background-color: rgba(118, 117, 117, 0.412);
+}
+/==================next part=================/
+.contact{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://itemsstore.net/html/trito/img/contact/background.jpg);
+    padding: 40px;
+}
+.contact1{
+    margin: 100px;
+}
+.contact5{
+    margin: 100px;
+    background-color: white;
+    padding: 80px;
+
+}
+.contact2{
+    padding-bottom: 10px;
+    margin: 10px;
+   
+    padding:  15px 200px 15px 10px !important;
+    
+    font-size: 20px;
+    border: 2px solid rgb(3, 3, 55);
+    
+}
+.childdiv4{
+   margin: 15px;
+    padding:  15px 80px 15px 20px !important;
+    font-size: 20px;
+    border: 2px solid rgb(3, 3, 55);
+}
+
+.contact2 button{
+   
+    padding: 10px 120px 10px 120px;
+    background-color: rgb(4, 4, 28);
+    color: white;
+    font-size: 20px;
+    
+}
+.contact2 div i{
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: rgb(10, 12, 57);
+    padding: 20px;
+    margin: 20px;
+}
